@@ -13,7 +13,7 @@ td.question {
   background: url("img/question.svg");
 }
 td.mine {
-  background: url("img/mine.png");
+  background: url("img/mine.png"), url("img/opened.svg");
 }
 td.mine-neighbour-1 {
   background: url("img/1.svg");
