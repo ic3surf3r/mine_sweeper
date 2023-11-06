@@ -70,6 +70,19 @@ body {
   background: #4d4d4d;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+#timer {
+  background-color: #000;
+  color: red;
+  margin: 10px;
+  padding: 5px;
+}
+
 #bomb-count {
   background-color: #000;
   color: red;
