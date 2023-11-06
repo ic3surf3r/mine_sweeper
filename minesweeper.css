@@ -1,4 +1,5 @@
-/* CSS classes you can use on your table td to display the relevant tile */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 td.unopened {
   background: url("img/unopened.svg");
   cursor: pointer;
@@ -51,4 +52,38 @@ table #minesweeper td {
   width: 24px;
   height: 24px;
   background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  font-family: "Share Tech Mono", sans-serif;
+}
+body {
+  background: #4d4d4d;
+}
+
+#bomb-count {
+  background-color: #000;
+  color: red;
+  margin: 10px;
+  padding: 5px;
+}
+
+#condition {
+  margin: 15px;
+  color: #fff;
+}
+
+#dif {
+  font-family: inherit;
+  padding: 5px;
+  font-size: medium;
 }
